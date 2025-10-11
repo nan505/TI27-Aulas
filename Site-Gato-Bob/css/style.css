@@ -10,7 +10,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(/Site-Gato-Bob/img/James_and_Bob.jpg);
+    background-image: url(../img/James_and_Bob.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px -150px;
