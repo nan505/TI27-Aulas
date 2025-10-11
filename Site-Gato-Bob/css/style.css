@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Site-Gato-Bob/img/James_and_Bob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+    margin-top: 16px;
+}
+
+form{
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.emailSenha{
+    margin-top: 14px;
+    width: 238px;
+    height: 24px;
+    padding-left: 16px;
+    border: solid 2px white;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.metodosLogin{
+    margin-top: 14px;
+    display: flex;
+}
+
+.loginImg{
+    width: 90px;
+    height: 36px;
+    object-fit: contain;
+    background-color: white;
+    margin-inline: 4px;
+}
+
+#formulario{
+    width: 290px;
+    height: 290px;
+    background-color: rgba(255, 255, 255, 0.486);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#esqueceuSenha{
+    font-size: 13px;
+    color: rgb(77, 77, 77);
+    margin-top: 22px;
+}
+
+#botaoEnvio{
+    width: 200px;
+    height: 28px;
+    color: white;
+    background-color: #007bff;
+    border: 0px;
+    border-radius: 4px;
+    margin-top: 14px;
+}
+
+#botaoEnvio:hover{
+    cursor: pointer;
+}
